@@ -10,3 +10,11 @@ As a pilot test and for the participation of the Linea hackahton, I have created
 # What next? Use cases!
 Add new projects and social networks available for registration. Create engagament competitions, create sweepstakes, missions, all fully transparent with verified social and holders. Possibility to send nfts or tokens using the social network nameuser as the recipient?!
 
+# Links
+- [YouTube presentation](https://www.youtube.com/watch?v=vE8pkJXkmPc)
+
+- [Smart Contract](https://explorer.sepolia.linea.build/address/0xfB841de94010ae0818fb681A0f3415bA76052a50)
+
+- [Site](https://testnet.nenuphar.xyz/)
+- [About me](https://linktr.ee/itsCesar)
+- [Twitter](https://x.com/cesar4design/status/1785418353277800551)
