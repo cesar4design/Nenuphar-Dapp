@@ -16,11 +16,11 @@ const NavbarComponent = () => {
         <>
             <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand href="#home">Nenuphar</Navbar.Brand>
+                    <Navbar.Brand href="./">Nenuphar</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Link className='nav-link' href="home">Home</Link>
+                            <Link className='nav-link' href="./">Home</Link>
                             <Link className='nav-link' href="discover">Discover</Link>
                             <Link className='nav-link' href="faucet">Faucet</Link>                           
                         </Nav>
