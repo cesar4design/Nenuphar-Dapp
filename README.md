@@ -1,5 +1,5 @@
 # Nenuphar
-Connecting the web3 community with the most popular traditional social networks.
+Discover and connect with other users, connect your social accounts with your NFT and increase the engagement of your communities!
 
 # About
 Based on the principles and primary utility of a PFP collection: the community. In addition to the ideas provided by the community aimed at rapid and fair expansion on social networks. I designed and developed Nenuphar, the first dapp connecting the web3 community with the most popular traditional social networks.
