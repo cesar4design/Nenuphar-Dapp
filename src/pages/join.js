@@ -92,7 +92,7 @@ export default function Home() {
     return (
         <>
             <div className="textSection">
-                <h2> <span className="rainbowText">Register</span> to join the verifyed comunjity</h2>
+                <h2> <span className="rainbowText">Register</span> and join the verified community</h2>
             </div>
 
             <div class="padded-boxes">
