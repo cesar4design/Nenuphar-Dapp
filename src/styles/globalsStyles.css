@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #000000;
+  color: white;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@font-face {
+  font-family: Metricula;
+  src: url(../../public/Meticula.ttf);
+}
+
+h3 {
+  font-family: Metricula;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  font-family: Metricula;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0rem;
+}
+
+a {
+  font-family: Metricula;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.blueColor {
+  color: rgb(87, 160, 243);
+}
+
+.rainbowText {
+  background: linear-gradient(90deg, #97cbf6 0%, #2663f3 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navbar */
+.bg-body-tertiary {
+  background-color: rgba(58, 58, 58, 0.048) !important;
+
+}
+
+.nav-link, .navbar-brand {
+  color: white !important;
+}
+
+.navbar-brand {
+  font-family: Metricula;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: -3px;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.842) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+.joinButton {
+  background-color: #0c23f2;
+  padding: 8px 20px !important;
+  border-radius: 6px;
+  border: none;
+  margin: 20px 0px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+
+
+/* container */
+.padded-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+/* boxes */
+.padded-boxes>* {
+  width: 100%;
+  background: #2424248e;
+  border-radius: .4rem;
+}
+
+/* headings */
+.padded-boxes .heading {
+  background: #0f0f0f;
+  margin: 0;
+  padding: 1rem;
+  border-top-left-radius: .4rem;
+  border-top-right-radius: .4rem;
+}
+
+/* padded content */
+.padded-boxes .padded {
+  padding: .1rem 1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+  .padded-boxes>* {
+    width: calc((100% - 4rem) / 3);
+  }
+}
+
+
+
+.ConnectButton {
+  background-color: #F2420C;
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  margin: 20px 0px;
+  font-family: Metricula;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.ConnectButton:hover {
+  background-color: #f2420cdf;
+}
+
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0px;
+  height: 100%;
+}
+
+.userInfo img {
+  border-radius: 600px;
+  width: 60px;
+}
+
+
+.ShowSection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1500px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+.cardNFT {
+  flex: 0 0 25%;
+  box-sizing: border-box;
+  margin: 10px;
+  background: #2424248e;
+  border-radius: 6px;
+  padding: 20px 30px;
+  min-width: 300px;
+  text-align: left;
+}
+
+.userInfoNFT {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.userInfoNFT img {
+  width: 70px;
+  border-radius: 600px;
+}
+
+.userInfoSocial {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userInfoSocial img {
+  width: 40px;
+  border-radius: 600px;
+}
+
+.textSection {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Home */
+.homeSection {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+
+.background {
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+  height: 400px;
+}
+
+.bg-left {
+  position: absolute;
+  left: 0;
+  margin-left: -20px;
+  width: 30%;
+}
+
+.bg-right {
+  position: absolute;
+  right: 0;
+  width: 30%;
+}
+
+.logo {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+  margin-top: 20vh;
+}
+
+.topHome {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  margin: 0 auto;
+  
+}
+
+.discoverButton {
+  background-color: #0c23f2;
+  color: white;
+  padding: 8px 20px !important;
+  border-radius: 6px;
+  border: none;
+  margin: 20px 0px;
+  transition: 0.4s;
+  cursor: pointer;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.bottomHome {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50vh;
+  text-align: left;
+  margin-bottom: 20vh;
+}
+
+.bottomHome h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
